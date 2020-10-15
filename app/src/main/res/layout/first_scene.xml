@@ -8,21 +8,29 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_marginTop="150dp"
         android:src="@drawable/ic_baseline_rice_bowl_24"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="103dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/app_name"
+        android:transitionName="logo_image"
+        />
 
     <TextView
+        android:transitionName="logo_text"
         android:id="@+id/app_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
         android:text="@string/app_name"
-        app:layout_constraintTop_toBottomOf="@id/logo"
-        android:gravity="center"
-        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center"
+        android:textColor="#8E24AA"
         android:textSize="50sp"
         android:textStyle="bold"/>
 
