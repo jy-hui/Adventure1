@@ -54,6 +54,9 @@ public class FirstScene extends AppCompatActivity {
                     startActivity(intent,options.toBundle());
                     finish();
                 }
+                else{
+                    startActivity(intent);
+                }
             }
         },SPLASH_SCREEN);
     }

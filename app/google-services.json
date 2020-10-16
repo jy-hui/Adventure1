@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "666059449343",
+    "firebase_url": "https://adventure1-cad31.firebaseio.com",
+    "project_id": "adventure1-cad31",
+    "storage_bucket": "adventure1-cad31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666059449343:android:4e52b48705c44766a7fdca",
+        "android_client_info": {
+          "package_name": "com.example.adventure1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666059449343-ckpdfrgoto1l317fpeuuoqk6qki1eohh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANnNVQBvOGDbXFe61U9jr4dyDOiK-xYCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666059449343-ckpdfrgoto1l317fpeuuoqk6qki1eohh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
