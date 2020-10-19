@@ -41,7 +41,7 @@ public class Login extends AppCompatActivity {
                 pairs[0] = new Pair<View, String>(logo, "logo_image");
                 pairs[1] = new Pair<View, String>(title, "logo_text");
                 pairs[2] = new Pair<View, String>(email, "email_tran");
-                pairs[3] = new Pair<View, String>(logo, "password_tran");
+                pairs[3] = new Pair<View, String>(password, "password_tran");
                 pairs[4] = new Pair<View, String>(login_btn, "button_tran");
                 pairs[5] = new Pair<View, String>(goSignUp, "login_signup_tran");
 
